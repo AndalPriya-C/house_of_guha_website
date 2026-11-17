@@ -5,7 +5,7 @@
 window.SITE_CONFIG = {
   /* Owner's WhatsApp number: digits only, with country code, no "+" or spaces.
      Example for India: "919876543210".  Replace the placeholder below. */
-  OWNER_WHATSAPP_NUMBER: "91XXXXXXXXXX",
+  OWNER_WHATSAPP_NUMBER: "919344350052",
 
   BUSINESS_NAME: "House of Guha",
 
