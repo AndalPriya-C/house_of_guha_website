@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>House of Guha – Premium Homemade Masalas</title>
+<meta name="description" content="Freshly prepared homemade masala powders. Order directly on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Icon sprite (inline so no external files are needed) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-cart" viewBox="0 0 24 24"><path d="M6 6h15l-1.6 8.2a2 2 0 0 1-2 1.6H8.6a2 2 0 0 1-2-1.6L5 3H2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="18" cy="20" r="1.4" fill="currentColor"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="currentColor"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z" fill="currentColor"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 4h16a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H8l-4 4V5a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8 9h8M8 13h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 6h12v10H2zM14 9h4l4 4v3h-8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="7" cy="18" r="2" fill="#fee3d6" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="18" r="2" fill="#fee3d6" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19C5 9 11 4 20 4c0 9-5 15-14 15zM5 19l8-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4h7a3 3 0 0 1 3 3v13a3 3 0 0 0-3-3H4zM20 4h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6zM9 8V6a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+</svg>
+
+<!-- Header -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="brand" href="#top" aria-label="House of Guha – home">
+      <span class="logo-circle"><img src="assets/logo.png" alt="" onerror="this.remove()"></span>
+      <span class="brand-name">House of Guha</span>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="#top" class="active">Home</a>
+      <a href="#products">Our Masalas</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="cart-link" href="#cart" aria-label="View shopping cart">
+        <svg width="20" height="20"><use href="#i-cart"/></svg>
+        <span class="cart-badge" id="header-cart-count" aria-live="polite">0</span>
+      </a>
+      <span class="avatar" aria-hidden="true"><svg width="14" height="14"><use href="#i-user"/></svg></span>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <svg width="22" height="22"><use href="#i-menu"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Announcement strip -->
+  <div class="strip">
+    <div class="strip-inner">
+      <p class="strip-left"><span class="dot"></span>Small-Batch Fresh Grinds &bull; Shipped within 24 Hours of Roasting</p>
+      <p class="strip-right">
+        <span><svg width="15" height="15"><use href="#i-leaf"/></svg>100% Preservative-Free</span>
+        <span><svg width="15" height="15"><use href="#i-truck"/></svg>Free Domestic Delivery Above ₹999</span>
+      </p>
+    </div>
+  </div>
+
+  <!-- 1. Hero -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <span class="pill-badge"><svg width="12" height="14"><use href="#i-leaf"/></svg>100% PURE &amp; HANDCRAFTED</span>
+        <h1>A Little Spice, A Lot of<br>Homemade Love.</h1>
+        <p class="hero-copy">Bring home the rich aroma of traditional Indian cooking with our freshly prepared homemade masala powders. Made with carefully selected ingredients, authentic recipes, and a whole lot of love, every spoonful adds warmth and flavour to your favourite dishes.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#products">Explore Our Masalas <svg width="17" height="12"><use href="#i-arrow"/></svg></a>
+          <button class="btn btn-secondary" type="button" data-open-order><svg width="17" height="17"><use href="#i-chat"/></svg>Direct WhatsApp Order</button>
+        </div>
+        <ul class="trust">
+          <li><svg width="22" height="22"><use href="#i-home"/></svg><span>Homemade<br>Preparation</span></li>
+          <li><svg width="22" height="22"><use href="#i-shield"/></svg><span>Quality<br>Ingredients</span></li>
+          <li><svg width="22" height="22"><use href="#i-book"/></svg><span>Traditional<br>Recipes</span></li>
+          <li><svg width="22" height="22"><use href="#i-spark"/></svg><span>Fresh &amp;<br>Aromatic</span></li>
+        </ul>
+      </div>
+      <div class="hero-right">
+        <div class="hero-card">
+          <img src="assets/hero.png" alt="Freshly ground homemade masala spices" onerror="this.remove()">
+          <div class="hero-gradient"></div>
+          <div class="hero-overlay">
+            <span class="hero-icon"><svg width="18" height="18"><use href="#i-spark"/></svg></span>
+            <div class="hero-overlay-text"><strong>Slow-Roasted &amp; Stone-Ground</strong><span>Ground at sub-ambient speeds to retain essential aromatic oils</span></div>
+            <span class="batch"><small>BATCH</small><b>#48</b></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Product collection -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">OUR HOMEMADE COLLECTION</p>
+        <h2>Flavours That Make Every Meal Special</h2>
+        <p>From everyday cooking essentials to special occasion favourites, discover our range of homemade masala powders. Each blend is carefully prepared to bring out the authentic taste and aroma of Indian cuisine.</p>
+      </header>
+      <div class="product-grid" id="product-grid"></div>
+    </div>
+  </section>
+
+  <!-- 3. Why choose us -->
+  <section class="why-section" id="about">
+    <div class="container">
+      <header class="section-head narrow">
+        <p class="eyebrow">PURITY IN EVERY GRAIN</p>
+        <h2>The Secret Ingredient Is Our Care.</h2>
+      </header>
+      <div class="why-grid">
+        <article class="why-card"><span class="why-icon"><svg width="26" height="26"><use href="#i-home"/></svg></span><h3>Authentic Homemade Taste</h3><p>Traditional recipes that bring familiar homemade flavours to your kitchen, refined over three generations of home cooking.</p></article>
+        <article class="why-card"><span class="why-icon"><svg width="26" height="26"><use href="#i-shield"/></svg></span><h3>Quality Ingredients</h3><p>Carefully selected whole spices from native agricultural regions for rich natural aroma and authentic satisfying flavour.</p></article>
+        <article class="why-card"><span class="why-icon"><svg width="26" height="26"><use href="#i-leaf"/></svg></span><h3>Freshly Prepared</h3><p>Prepared in small weekly batches with gentle low-temperature milling to preserve the active volatile oils of each spice.</p></article>
+        <article class="why-card"><span class="why-icon"><svg width="26" height="26"><use href="#i-spark"/></svg></span><h3>Hygienic Preparation</h3><p>Made with meticulous cleanliness, sun-dried grains, and sanitized stainless equipment at every step of our kitchen process.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Cart -->
+  <section class="cart-section" id="cart">
+    <div class="container">
+      <header class="cart-head">
+        <p class="eyebrow small">REVIEW &amp; CHECKOUT</p>
+        <h2>Your Favourite Flavours, All in One Place.</h2>
+        <p>Review your selected masalas, make changes to quantities, and get your order summary before placing your order.</p>
+      </header>
+      <div class="cart-layout">
+        <div class="cart-left">
+          <div class="cart-items" id="cart-items" aria-live="polite"></div>
+          <div class="ship-banner" id="ship-banner" hidden>
+            <svg width="22" height="16"><use href="#i-truck"/></svg>
+            <div><strong>Free Express Shipping Applied!</strong><span>Your order exceeds ₹999. Fresh ground masalas packed with food-grade foil seal.</span></div>
+          </div>
+        </div>
+        <aside class="summary" aria-label="Order summary">
+          <h3>Order Summary</h3>
+          <dl class="sum-rows">
+            <div><dt>Items Subtotal</dt><dd id="sum-subtotal">₹0</dd></div>
+            <div><dt>Delivery Charges</dt><dd id="sum-delivery">₹0</dd></div>
+            <div><dt>Eco Fresh Packaging</dt><dd class="muted-green">Complimentary</dd></div>
+          </dl>
+          <div class="sum-total"><div><strong>Total Amount</strong><small>Includes all taxes</small></div><b id="sum-total">₹0</b></div>
+          <button class="btn btn-primary btn-block" type="button" id="proceed-btn" data-open-order>Proceed to Order <svg width="14" height="14"><use href="#i-arrow"/></svg></button>
+          <p class="sum-note"><svg width="11" height="14"><use href="#i-lock"/></svg>Encrypted WhatsApp order confirmation &amp; UPI</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer" id="contact">
+  <div class="footer-inner">
+    <div class="footer-cols">
+      <div class="f-brand">
+        <div class="f-logo"><span class="logo-circle sm"><img src="assets/logo.png" alt="" onerror="this.remove()"></span><span>House of Guha</span></div>
+        <p class="f-tag">Aroma of Tradition. Taste of Home.</p>
+        <p class="f-copy">Bringing authentic homemade Indian flavours to your kitchen, one spoonful at a time.</p>
+      </div>
+      <div>
+        <h4>QUICK LINKS</h4>
+        <ul class="f-links"><li><a href="#top">Home</a></li><li><a href="#products">Our Products</a></li><li><a href="#about">About Us</a></li><li><a href="#contact">Contact Us</a></li></ul>
+      </div>
+      <div>
+        <h4>CONTACT INFORMATION</h4>
+        <ul class="f-contact">
+          <li><svg width="16" height="16"><use href="#i-phone"/></svg>+91 98450 12345</li>
+          <li><svg width="16" height="16"><use href="#i-chat"/></svg>WhatsApp: +91 98450 67890</li>
+          <li><svg width="16" height="16"><use href="#i-pin"/></svg>14 Heritage Lane, Spice Quarter, Fort Kochi, Kerala 682001</li>
+        </ul>
+      </div>
+    </div>
+    <div class="f-bottom"><span>© 2026 House of Guha. All Rights Reserved.</span><span>Handcrafted with Heritage Care</span></div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp button -->
+<button class="wa-fab" type="button" id="wa-fab" data-open-order aria-label="Quick WhatsApp Order">
+  <svg width="20" height="20"><use href="#i-chat"/></svg>
+  <span class="wa-label">Quick WhatsApp Order</span>
+  <span class="wa-count" id="fab-count">0</span>
+</button>
+
+<!-- Order form -->
+<div class="modal" id="order-modal" hidden>
+  <div class="modal-backdrop" data-close-order></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="order-title">
+    <button class="modal-close" type="button" data-close-order aria-label="Close order form"><svg width="18" height="18"><use href="#i-close"/></svg></button>
+    <h3 id="order-title">Your Delivery Details</h3>
+    <p class="modal-sub">Fill in your details and we will open WhatsApp with your complete order ready to send.</p>
+    <form id="order-form" novalidate>
+      <div class="field"><label for="f-name">Full Name <span class="req">*</span></label><input id="f-name" name="name" type="text" autocomplete="name" required><p class="err" id="e-name" role="alert"></p></div>
+      <div class="field"><label for="f-mobile">Mobile Number <span class="req">*</span></label><input id="f-mobile" name="mobile" type="tel" inputmode="tel" autocomplete="tel" placeholder="e.g. 98765 43210" required><p class="err" id="e-mobile" role="alert"></p></div>
+      <div class="field"><label for="f-address">Delivery Address <span class="req">*</span></label><textarea id="f-address" name="address" rows="3" autocomplete="street-address" required></textarea><p class="err" id="e-address" role="alert"></p></div>
+      <div class="field"><label for="f-notes">Additional Instructions <span class="opt">(Optional)</span></label><textarea id="f-notes" name="notes" rows="2"></textarea></div>
+      <p class="err form-err" id="e-form" role="alert"></p>
+      <button class="btn btn-wa btn-block" type="submit"><svg width="18" height="18"><use href="#i-chat"/></svg>Send Order on WhatsApp</button>
+      <p class="modal-note">WhatsApp will open with the order pre-filled. Press <b>Send</b> there to place your order.</p>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="config.js"></script>
+<script src="logic.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
