@@ -11,7 +11,7 @@ window.SITE_CONFIG = {
 
   /* Delivery rule shown in the Figma design:
      ₹50 delivery, free when the items subtotal is ABOVE ₹999. */
-  DELIVERY: { charge: 50, freeAbove: 999 },
+  DELIVERY: { charge: 50, freeAbove: 2999 },
 
   WEIGHTS: [
     { id: "250g", label: "250 g" },
